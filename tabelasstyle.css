@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+
+}
+.tabCima{
+    display: flex;
+    width: 60%;
+    height: 100px;
+    background-color: aquamarine;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  rgb(29, 25, 25);
+    color: white;
+}
+input{
+    height: 30px;
+    background-color:  rgb(41, 37, 37);
+    border: none;
+}
+#nif{
+    width: 100px;
+}
+.tabCima div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.caixa{
+    background-color: rgb(55, 122, 247);
+    height: 40px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.tb{
+    background-color: aliceblue;
+    height: 350px;
+    width: 60%;
+    color: gray;
+    background-color: rgb(29, 25, 25);
+    border-radius: 5px;
+    
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    
+}
+
+tr, td {
+    padding: 0px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+}
+
+tr:hover {background-color:  #dfdddd;}
